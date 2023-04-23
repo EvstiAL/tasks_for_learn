@@ -54,7 +54,7 @@ body {
 .language{
     writing-mode: vertical-lr;
     margin-top: 90px;
-    color:#828282
+    color:#828282;
 }
 .english{
     color: black;
@@ -98,27 +98,74 @@ body {
 }
 
 .Aboba_Fotoshopa {
-    padding: 50px ;
+    color:#828282;
+    font-size: smaller;
+    padding: 50px;
 }
 
 .Aboba-img {
     background-color: #2c2a2a;
+    margin-bottom: 20px;
+}
+.figma-img{
+    margin-bottom: 20px;
+
+}
+.starss{
+    margin-top: 20px;
+}
+.stars{
+    margin-top: 40px;
+
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    margin-top: 100px;
+    background-color: #f6f6f6;
+    text-align: center;
 }
 
 
+.media-port {
+    max-width: 931px;
+    padding-bottom: 24px;
 
-
-
-
-
-
-
-
-h2 {
-    font-weight: bold;
+}
+.media-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
 }
 
-p {
-    font-size: medium;
-    font-weight: lighter;
+.foot-block {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    margin-top: 100px;
+    background-color: #ffff;
+    text-align: center;
+    align-items: center;
 }
+
+.foot-text {
+    color:rgb(133, 133, 133)
+}
+
+.contacts_button {
+    margin-top: 30px;
+    margin-bottom: 85px;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    width: 180.5px;
+    height: 42px;
+    border-radius: 25px;
+}
+
