@@ -1,0 +1,124 @@
+.container{
+    justify-content: center;
+    max-width: 970px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family:  sans-serif;
+    color: rgb(133, 133, 133);
+}
+.imagination {
+    border-top: 1px solid #828282;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 940px;
+}
+body {
+    font-family: sans-serif ;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.denis {
+    margin-top: 40px;
+    width: 100px;
+    font-size: 4.7rem;
+}
+.ux {
+    margin-top: 94px;
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+.language{
+    writing-mode: vertical-lr;
+    margin-top: 90px;
+    color:#828282
+}
+.english{
+    color: black;
+}
+.imageg{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rat{
+    display: flex;
+    padding: 120px;
+    margin-top: 100px;
+    background-color: #f6f6f6;
+}
+
+.block_main{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.skill {
+    display: flex;
+    padding: 120px;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+
+.block-skill-main {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.Aboba-block {
+    display: flex;
+    flex-direction: row;   
+}
+
+.Aboba_Fotoshopa {
+    padding: 50px ;
+}
+
+.Aboba-img {
+    background-color: #2c2a2a;
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: medium;
+    font-weight: lighter;
+}
