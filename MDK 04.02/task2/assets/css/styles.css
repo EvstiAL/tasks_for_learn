@@ -1,0 +1,9 @@
+body {
+    font-family:'Segoe UI';
+}
+.body-main-pre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 12px;
+}
