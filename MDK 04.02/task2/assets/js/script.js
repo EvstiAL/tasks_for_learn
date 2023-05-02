@@ -13,11 +13,18 @@ btnsendField.addEventListener('click',()=>{
     console.log('Имя пользователя:', userNameField.value);
     console.log('Телефон пользователя:', userteleField.value);
     console.log('Поста пользователя:', userMailField.value);
+    if(agreement.checked) {
+        console.log('True');
+        console.log('Пользователь согласен с условиями чего-то там ');
+    } else {
+        console.log('False')
+    }
+    
 })
 
-agreementField.addEventListener('click',()=>{
-    console.log('Пользователь согласен с условиями чего-то там ');
-})
+//agreementField.addEventListener('click',()=>{
+//    console.log('Пользователь согласен с условиями чего-то там ');
+//})
 
 // Задание: По нажатию на кнопку "Отправить" выводить в консоль данные,
 // введенные в текстовые поля, в следующем формате:
