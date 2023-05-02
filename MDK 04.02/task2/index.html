@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = 'stylesheet' href="./assets/css/styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./reset.css">
 </head>
 <body>
-    <div class = 'body-main-pre'>
-        <h1 class = 'title-help'>Поможем в выборе!</h1>
-        <p>Если у вас есть вопросы о формате или вы не знаете что выбрать, оставьте свой номер:<br> мы позвоним, чтобы ответить на все ваши вопросы.</p>
+  <section class="help">
+    <div class="wrapper">
+      <header class="help__header">
+        <h2>Поможем в выборе!</h2>
+        <p>
+          Если у вас есть вопросы о формате или вы не знаете что
+          выбрать, оставьте свой номер: мы позвоним, чтобы ответить
+          на все ваши вопросы
+        </p>
+      </header>
+
+      <form class="help__form">
+        <div class="help__fields">
+          <div class="help__form-item help__form-item_w100">
+            <label for="user-name">Имя</label>
+            <input type="text" id="user-name">
+          </div>
+          <div class="help__form-item">
+            <label for="user-phone">Телефон</label>
+            <input type="text" id="user-phone">
+          </div>
+          <div class="help__form-item">
+            <label for="user-email">Почта</label>
+            <input type="text" id="user-email">
+          </div>
+        </div>
+
+        <div class="help__buttons">
+          <div class="help__checkbox">
+            <input type="checkbox" id="agreement">
+            <label for="agreement">
+              Я согласен с условиями обработки <span>персональных данных</span>
+            </label>
+          </div>
+
+          <button type="submit" class="help__btn-send">Отправить</button>
+        </div>
+      </form>
     </div>
-    <div class = 'registration-form'>
-        <div >
-            <span>Имя</span>
-            <input class = 'name-box' type="text">
-        </div>
-        <div class = 'telephone-email-box'>
-            <div class = 'telephone-box'>
-                <span>Телефон</span>
-                <input type="text">
-            </div>
-            <div class = 'email-box'>
-                <span>E-mail</span>
-                <input type="text">
-            </div>
-        </div>
-        <div class="submit-box">
-            <div class = 'submit-check'>
-            <input type="checkbox">Я согласен с условиями обработки <a href="#">персональных данных</a></input>
-            </div>
-            <button class  = 'submit-btn'>Отправить</button>
-        </div>
-    </div>
+  </section>
 </body>
+
+<script src="./script.js"></script>
 </html>
