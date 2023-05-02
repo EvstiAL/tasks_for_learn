@@ -9,16 +9,15 @@ btnsendField.addEventListener('click',()=>{
         console.log('Телефон пользователя:', userteleField.value);
         console.log('Поста пользователя:', userMailField.value);
 
-        
+
     if(agreement.checked) {
         console.log('True');
         console.log('Пользователь согласен с условиями чего-то там ');
     } else {
         console.log('False')
     }
-
+    
 })
-
 
 
 
