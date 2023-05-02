@@ -5,14 +5,11 @@ const userMailField = document.querySelector('#user-email');
 const btnsendField = document.querySelector('#helpbtn');
 
 btnsendField.addEventListener('click',()=>{
-    if (document.getElementsByClassName('help__form').value  == ""){
-        console.log('Пусто');
-    }else {
-
         console.log('Имя пользователя:', userNameField.value);
         console.log('Телефон пользователя:', userteleField.value);
         console.log('Поста пользователя:', userMailField.value);
-    }
+
+        
     if(agreement.checked) {
         console.log('True');
         console.log('Пользователь согласен с условиями чего-то там ');
