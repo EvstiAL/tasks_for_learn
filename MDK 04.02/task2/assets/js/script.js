@@ -1,14 +1,15 @@
 const userNameField = document.querySelector('#user-name');
-
-// userNameField.value - можно получить значение, написанное в текстовом поле
-
 const agreementField = document.querySelector('#agreement');
-
+const userteleField = document.querySelector('#user-phone');
+const userMailField = document.querySelector('#user-email');
+// userNameField.value - можно получить значение, написанное в текстовом поле
 // agreement.checked - можно узнать, нажат ли чекбокс или нет
 // если возвращает true - нажат, если false - не нажат
 
 
-
+agreementField.addEventListener('click',()=>{
+    console.log('Имя пользователя', userNameField)
+})
 
 
 // Задание: По нажатию на кнопку "Отправить" выводить в консоль данные,
