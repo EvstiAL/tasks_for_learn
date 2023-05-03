@@ -3,7 +3,7 @@
 }
 
 .navig-cont {
-    display: block;
+    display: flex;
     flex-direction: row;
     
 
@@ -17,6 +17,7 @@
 .nav-elem {
     display: flex;
     padding: 40px;
+    padding-right: 0px;
 }
 
 
@@ -27,15 +28,41 @@
 
 .shop-ico {
     align-items: center;
+    margin-left: auto;
+    margin-right:auto;
+    padding-right:100px;
+}
+.searching{
+    padding: 40px;
+    
+}
+.img-elem{
+    padding-left:10px;
+    padding-right:10px;
 }
 .enter-block{
     display: block;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 .text-block{
     color:white;
+    padding-bottom: 15px;
 }
-.shop-btn{}
+.shop-btn{
+    color:#004F44;
+    padding: 15px;
+    max-width: 1000px;
+    width: 130px;
+    border: none;
+}
+.plants-btn{
+    border: none;
+    color: white;
+    background: none;
+    padding: 15px;
+    max-width: 1500px;
+    width: 150px;
+}
 
 
 
