@@ -1,0 +1,30 @@
+.head-main {
+    background-color:#004F44;
+}
+
+.navig-cont {
+    display: block;
+    flex-direction: row;
+    
+
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.nav-elem {
+    display: flex;
+    padding: 40px;
+}
+
+
+.main-ico {
+    display: flex;
+    align-items: center;
+}
+
+.shop-ico {
+    align-items: center;
+}
